@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AwakeAndStart : MonoBehaviour
 {
-    void awake()
+    void Awake()
     {
         Debug.Log("Awake called.");
     }
@@ -12,12 +12,10 @@ public class AwakeAndStart : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.log("Start called.");
+        Debug.Log("start called.");
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
+
